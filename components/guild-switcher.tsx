@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
-import { api, routes } from '@elira/lib/routes'
+import { api, routes } from '@/lib/routes'
 
 type GuildRow = { id: string; name: string; icon_url: string | null; member_count: number }
 

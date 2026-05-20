@@ -5,7 +5,7 @@ import {
   filterCommandsCatalog,
   groupCommandsByCategory,
   type CatalogCommand,
-} from '@elira/lib/commands/catalog'
+} from '@/lib/commands/catalog'
 
 function DropdownCheck() {
   return (

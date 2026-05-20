@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getSession, type Session } from '@elira/lib/auth/session'
+import { getSession, type Session } from '@/lib/auth/session'
 import { hasGuildAdmin } from '@elira/lib/discord/api'
 import { listMessages } from '@/lib/settings/script-messages'
 import { getAutoroleSettings } from '@/lib/settings/autorole'

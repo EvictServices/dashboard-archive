@@ -1,4 +1,4 @@
-import { getSession } from '@elira/lib/auth/session'
+import { getSession } from '@/lib/auth/session'
 import { redirect } from 'next/navigation'
 import { loadDashboardGuildLists } from '@/lib/guilds'
 import DashboardView from '@/components/views/dashboard-view'

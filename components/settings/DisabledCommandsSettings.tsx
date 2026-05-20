@@ -3,11 +3,11 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ChannelDropdown, Dropdown, RoleDropdown } from '@/components/settings/AnDropdowns'
 import { fetchBundle } from '@/lib/bundle-client'
-import { isDiscordCategoryChannel, isDiscordTextChannel } from '@elira/lib/guild/channel-type'
+import { isDiscordCategoryChannel, isDiscordTextChannel } from '@/lib/guild/channel-type'
 import { colorHex, type GuildChannel, type GuildRole } from '@/components/settings/types'
 import { OverflowChipDropdown } from '@/components/settings/OverflowChipDropdown'
 import { CommandModulePicker } from '@/components/settings/CommandModulePicker'
-import type { CatalogCommand } from '@elira/lib/commands/catalog'
+import type { CatalogCommand } from '@/lib/commands/catalog'
 import { canDisableCommand } from '@/lib/settings/command-mgmt'
 import PrefixSettings from './PrefixSettings'
 

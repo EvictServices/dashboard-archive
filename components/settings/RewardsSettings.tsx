@@ -16,11 +16,11 @@ import {
   type EmbedButton,
   type EmbedData,
   type EmbedField,
-} from '@elira/components/embeds/lib/types'
-import type { ParsedEmbedPatch } from '@elira/components/embeds/lib/parse'
-import type { PreviewContext } from '@elira/components/embeds/lib/preview'
+} from '@/lib/embeds/types'
+import type { ParsedEmbedPatch } from '@/lib/embeds/parse'
+import type { PreviewContext } from '@/lib/embeds/preview'
 import { fetchBundle } from '@/lib/bundle-client'
-import { isDiscordCategoryChannel, isDiscordTextChannel } from '@elira/lib/guild/channel-type'
+import { isDiscordCategoryChannel, isDiscordTextChannel } from '@/lib/guild/channel-type'
 import {
   getDangerousPermissions,
   permissionLabel,

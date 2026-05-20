@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import { botInviteUrl, INVITE_URL } from '@elira/lib/discord/urls'
-import { routes } from '@elira/lib/routes'
+import { routes } from '@/lib/routes'
 import { compactNumber, guildInitials } from '@elira/lib/discord/format'
 import { userAvatarUrl } from '@elira/lib/discord/cdn'
 

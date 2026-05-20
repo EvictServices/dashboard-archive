@@ -1,4 +1,4 @@
-import { getSession } from '@elira/lib/auth/session'
+import { getSession } from '@/lib/auth/session'
 import { redirect } from 'next/navigation'
 import { fetchGuild, fetchMutualGuilds } from '@elira/lib/cluster/client'
 import { isAntinukeAdmin } from '@/lib/settings/antinuke'

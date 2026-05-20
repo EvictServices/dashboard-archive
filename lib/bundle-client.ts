@@ -1,4 +1,4 @@
-import { apiGuild } from '@elira/lib/routes'
+import { apiGuild } from '@/lib/routes'
 
 export type BundleResource =
   | 'system'

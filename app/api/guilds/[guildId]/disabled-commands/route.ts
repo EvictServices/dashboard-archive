@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getSession } from '@elira/lib/auth/session'
+import { getSession } from '@/lib/auth/session'
 import { hasGuildAdmin } from '@elira/lib/discord/api'
 import { fetchGuildChannels, type GuildChannel } from '@elira/lib/cluster/client'
-import { isDiscordTextChannel } from '@elira/lib/guild/channel-type'
+import { isDiscordTextChannel } from '@/lib/guild/channel-type'
 import {
   canDisableCommand,
   normalizeCommand,

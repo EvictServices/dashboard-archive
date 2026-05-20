@@ -4,7 +4,7 @@ import {
   type EmbedButton,
   type EmbedData,
   type EmbedField,
-} from '@elira/components/embeds/lib/types'
+} from '@/lib/embeds/types'
 
 export const CHANNEL_SNOWFLAKE = /^\d{15,22}$/
 

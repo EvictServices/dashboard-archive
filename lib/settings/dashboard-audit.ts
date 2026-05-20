@@ -1,4 +1,4 @@
-import type { Session } from '@elira/lib/auth/session'
+import type { Session } from '@/lib/auth/session'
 import pool from '@elira/lib/infra/db'
 
 export interface DashboardAuditEntry {

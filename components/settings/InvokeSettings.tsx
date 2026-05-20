@@ -10,9 +10,9 @@ import {
   type EmbedButton,
   type EmbedData,
   type EmbedField,
-} from '@elira/components/embeds/lib/types'
-import type { ParsedEmbedPatch } from '@elira/components/embeds/lib/parse'
-import type { PreviewContext } from '@elira/components/embeds/lib/preview'
+} from '@/lib/embeds/types'
+import type { ParsedEmbedPatch } from '@/lib/embeds/parse'
+import type { PreviewContext } from '@/lib/embeds/preview'
 import {
   INVOKE_ACTION_TYPES,
   INVOKE_ACTION_LABELS,

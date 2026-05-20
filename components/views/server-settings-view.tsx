@@ -6,7 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { useDashboardGuildBreadcrumb } from '@/components/contexts/breadcrumb-context'
 import { useGuildSettingsMobileNav } from '@/components/contexts/mobile-nav-context'
 import { useMediaQuery } from '@elira/lib/hooks/use-media-query'
-import { routes } from '@elira/lib/routes'
+import { routes } from '@/lib/routes'
 import { guildInitials } from '@elira/lib/discord/format'
 import { userAvatarUrl as discordUserAvatarUrl } from '@elira/lib/discord/cdn'
 

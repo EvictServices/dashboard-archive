@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useConfirm } from '@elira/components/shared/confirm-modal'
 import { ChannelDropdown } from '@/components/settings/AnDropdowns'
 import { fetchBundle } from '@/lib/bundle-client'
-import { isDiscordCategoryChannel, isDiscordTextChannel } from '@elira/lib/guild/channel-type'
+import { isDiscordCategoryChannel, isDiscordTextChannel } from '@/lib/guild/channel-type'
 import type { GuildChannel } from '@/components/settings/types'
 
 interface LoggingChannel {

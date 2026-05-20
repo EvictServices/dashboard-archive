@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     return [
-      { source: '/api/auth/:path*', destination: `${eliraOrigin}/api/auth/:path*` },
       { source: '/api/cluster/:path*', destination: `${eliraOrigin}/api/cluster/:path*` },
       { source: '/img/:path*', destination: `${eliraOrigin}/img/:path*` },
     ]

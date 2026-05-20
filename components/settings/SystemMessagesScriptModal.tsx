@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState, type FocusEvent } from 'react'
 import { createPortal } from 'react-dom'
-import EmbedEditor from '@elira/components/embeds/embed-editor'
-import EmbedPreview from '@elira/components/embeds/embed-preview'
-import VariablesPaginator from '@elira/components/embeds/variables-paginator'
-import Autocomplete from '@elira/components/embeds/autocomplete'
-import { generateScript, type EmbedButton, type EmbedData, type EmbedField } from '@elira/components/embeds/lib/types'
-import type { ParsedEmbedPatch } from '@elira/components/embeds/lib/parse'
-import type { PreviewContext } from '@elira/components/embeds/lib/preview'
+import EmbedEditor from '@/components/embeds/embed-editor'
+import EmbedPreview from '@/components/embeds/embed-preview'
+import VariablesPaginator from '@/components/embeds/variables-paginator'
+import Autocomplete from '@/components/embeds/autocomplete'
+import { generateScript, type EmbedButton, type EmbedData, type EmbedField } from '@/lib/embeds/types'
+import type { ParsedEmbedPatch } from '@/lib/embeds/parse'
+import type { PreviewContext } from '@/lib/embeds/preview'
 import type { GuildChannel } from '@/components/settings/types'
 
 function normalizeSnowflake(v: unknown): string {

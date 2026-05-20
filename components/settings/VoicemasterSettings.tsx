@@ -8,7 +8,7 @@ import {
   isDiscordCategoryChannel,
   isDiscordTextChannel,
   isDiscordVoiceChannel,
-} from '@elira/lib/guild/channel-type'
+} from '@/lib/guild/channel-type'
 import type { GuildChannel, GuildRole } from '@/components/settings/types'
 import {
   REGIONS,
